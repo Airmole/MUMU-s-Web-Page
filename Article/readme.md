@@ -10,4 +10,8 @@
  
  缺点是PDF文档日后不便于修改！
  
+ Copyright © 2016 - 2017 凩茻MUMU. All Rights Reserved    
+
+Copyright of 2016 - 2017 MUMU. All Rights Reserved    
  
+https://mumu0934.cn   https://mumu0934.github.io
