@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>加入我们</title>
+        <title>凩茻MUMU</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="images/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -57,8 +57,8 @@
         <canvas class="canvas"></canvas>
         <p class="slogan">你</p>
         <p class="text">
-            这是一个新的开始<br/>
-            QQ群：529300893
+            Dream it Possible.<br/>
+            凩茻MUMU
 
         </p>
         <script>
@@ -66,9 +66,9 @@
                 init: function () {
                     S.Drawing.init('.canvas');
                     document.body.classList.add('body--ready');
-                    var text = '冰炫|互联|系统|维护|需要 YOU!|#countdown 3|#icon thumbs-up';
+                    var text = 'Hi|先丽娟|我|喜欢|YOU|#countdown 3|#icon thumbs-up';
                     if (window.innerWidth < 600) {
-                        text = '冰|炫|互|联|需|要|';
+                        text = '先|丽|娟|我|需|要|';
                     }
                     S.UI.simulate(text);
                     S.Drawing.loop(function () {
@@ -229,7 +229,7 @@
                                 break;
 
                             default:
-                                S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'QQ群：529300893' : current));
+                                S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? '♥' : current));
                                 if (current === '') {
                                     setTimeout(function () {
                                         document.querySelector('.slogan').style.display = 'block';
